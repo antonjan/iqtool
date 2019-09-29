@@ -2,7 +2,7 @@
 A set of python applications for generating and viewing quadrature IQ binary files. 
 Intended for use with software defined radios and lab test equipment.
 
-## Requirements (dont seem to work with python2)
+## Requirements
 * Tested with Python 2.7 and 3.6.
 * Requires numpy and matplotlib.
 
