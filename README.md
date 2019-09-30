@@ -42,6 +42,8 @@ iqgen can generate files with three types of signal:
 * A suitable output filename is automatically generated based on the options selected.
 * The default filename can be overridden using the **[-o FILENAME]** option.
 
+### Exsample
+* python3 ./iqgen.py -t 1000 -fs 48000 -o iq_tone_int16_iq.iq -f int16 10000
 
 # iqplot
 Plots the I and Q data from a user specified binary file.
