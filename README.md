@@ -40,7 +40,10 @@ iqgen can generate files with three types of signal:
 
 ### Output file name
 * A suitable output filename is automatically generated based on the options selected.
-* The default filename can be overridden using the **[-o FILENAME]** option.
+* The default filename can be overridden using the **[-o FILENAME]** option. 
+
+### Usage: NumberOfSamples
+* How many samples do you want to create. **not optional [1000]**
 
 ### Exsample
 * python3 ./iqgen.py -t 1000 -fs 48000 -o iq_tone_int16_iq.iq -f int16 10000
